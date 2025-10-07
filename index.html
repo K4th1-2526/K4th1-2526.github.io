@@ -1,27 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
 </head>
-<body bgcolor="72C1ED">
-   <br>
-   <center>
-       <img src = "images/2..png" width="15%"><br>
-       <h1>Welcome to my portfolio</h1><br>
-       <table border="0">
-            <tr>
-               <td><label><b>Fullname:</b></label></td>
-               <td>Katherin Fierro Rodriguez</td>
-            </tr>
-               <td><label><b>Mobile phone:</b></label></td>
-               <td>+ 57 3233179107</td>
-            </tr>
-               <td><label><b>E-mail:</b></label></td>
-               <td>fierrorodriguezkatherin@gmail.com</td>
-            </tr>
-        </table>
-</center>
+<body>
+    <header>
+        <a href="#" class="logo">katherin</a>
+
+        <nav>
+            <a href="#" class="active"> Home</a>
+            <a href="#skills" >Skills</a>
+            <a href="#education" >Education</a>
+            <a href="#hobbies" >Hobbies</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src= "Screenshot_20250602-181209 (1).png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>katherin</span></h1>
+            <h3 class="typing-text">I'm a Software Engineering Student <span></span></h3>
+            <p>I am a first-year Software Engineering student passionate about technology, web development, and continuous learning.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100086166747751"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/K4th1-2526/K4th1-2526.github.io"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/kayhy2006/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+ <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <span>Creativity and curiosity</span>
+                <div class="bar"><div style="width:60%"></div></div>
+            </div>
+            <div class="skill">
+                <span>Responsibility and commitment</span>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+            <div class="skill">
+                <span>Teamwork</span>
+                <div class="bar"><div style="width:65%"></div></div>
+            </div>
+            <div class="skill">
+                <span>Effective communication</span>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+  <h2 class="section-title">Education 🎓</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-icon">💼</div>
+      <div class="timeline-content">
+        <h3>Technician in Entrepreneurship and Business Development</h3>
+        <p>Training focused on developing sustainable business ideas and entrepreneurial leadership.</p>
+        <p class="year">2024</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">🛍️</div>
+      <div class="timeline-content">
+        <h3>Technician in Sales of Non-Technical Products</h3>
+        <p>Training in sales strategies, customer service, and commercial management.</p>
+        <p class="year">2024</p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-icon">🏫</div>
+      <div class="timeline-content">
+        <h3>Technical High School Diploma in Business Management</h3>
+        <p>Education focused on administrative processes, planning, and business organization.</p>
+        <p class="year">2024</p>
+      </div>
+    </div>
+</section>
+<section class="hobbies" id="hobbies">
+    <h2 class="section-title">Hobbies</h2>
+
+    <div class="hobbies-container">
+        <div class="hobby-card">
+            <i class="fa-solid fa-music"></i>
+            <h3>Music</h3>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Video Games</h3>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-book"></i>
+            <h3>Reading</h3>
+        </div>
+
+        <div class="hobby-card">
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>Drawing and Painting</h3>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p class="section-subtitle">You can contact me through the following:</p>
+
+    <div class="contact-container">
+        <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:fierrorodriguezkatherin@gmail.com">fierrorodriguezkatherin@gmail.com</a></p>
+        </div>
+
+        <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Phone</h3>
+            <p><a href="tel:+573001234567">+57 3233179107</a></p>
+        </div>
+    </div>
+</section>
 </body>
 </html>
